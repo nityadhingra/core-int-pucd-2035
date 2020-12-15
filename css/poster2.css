@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400..900&display=swap');
+
+
+/*! minireset.css v0.0.6 | MIT License */ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+
+
+html {
+  font-size: .75rem;
+  font-family: 'Work Sans', serif;
+  background: #b0e0e6;
+}
+
+body {
+  padding:5rem 0;
+  color:#b0e0e6;
+  background: #b0e0e6;
+
+}
+
+    main {
+        max-width:70vw;
+        margin:0 auto;
+        padding:0;
+        
+    }
+
+
+.grid-set-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  grid-gap: 5rem;
+  padding:1rem 0;
+  background:#000;
+}
+
+
+img {
+    width: 30%;
+}
+
+article {
+  padding:0;
+  margin:0;
+}
+
+.grid-item {
+  font-size: 1em;
+  text-align: center;
+  padding-top:1rem;
+}
+
+
+.gsr-1 {
+  grid-column:1;
+}
+.gsr-2 {
+  grid-column:2;
+}
+.gsr-3 {
+  grid-column:3;
+}
+.gsr-4 {
+  grid-column:4;
+}
+.gsr-5 {
+  grid-column:5;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Work Sans', serif;
+  text-transform:lowercase;
+  margin:0;
+  padding:0;
+  line-height:.7;
+}
+
+h1 {
+  font-size:6rem;
+  font-weight:600;
+}
+
+h2 {
+  font-size:12rem;
+  text-transform:lowercase;
+  font-weight:700;
+
+}
+h3 {
+  font-size:2rem;
+  font-weight:400;
+  font-weight:600;
+
+}
+h4 {
+  font-size:2rem;
+  font-weight:100;
+
+}
+
+h5 {
+  font-size:3rem;
+  font-weight:700;
+}
+
+
+
+.vertical-text-top {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
